@@ -26,8 +26,7 @@ The number of neurons in each layer:
 
 • Layer #4: from 30 to 10
 
-All in all our model consists of 64825 parameters. Figure 1 is an illustration of our model’s layers where the initial input was represented as a single node instead of
-showing 784.
+All in all our model consists of 64825 parameters. An illustration of our model’s layers is added, where the initial input was represented as a single node instead of showing 784.
 
 Our model’s training procedure consists of the following steps:
 1. Splitting the 60,000 training images into batches of 150.
@@ -35,3 +34,5 @@ Our model’s training procedure consists of the following steps:
 3. Calculating Loss with Cross-Entropy for each batch.
 4. Optimizing using ADAM.
 This whole process was done for 80 epochs with a learning Rate of 0.005625
+
+Final Accuracy reached: 98.21%
