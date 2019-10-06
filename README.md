@@ -19,8 +19,11 @@ On the last layer a Linear function reduces the number of neurons to the number 
 The number of neurons in each layer:
 
 • Layer #1: from 784 to 75
+
 • Layer #2: from 75 to 50
+
 • Layer #3: from 50 to 30
+
 • Layer #4: from 30 to 10
 
 All in all our model consists of 64825 parameters. Figure 1 is an illustration of our model’s layers where the initial input was represented as a single node instead of
